@@ -2,15 +2,15 @@
 
 ![Run Examples](https://github.com/pytorch/examples/workflows/Run%20Examples/badge.svg)
 
-WARNING: if you fork this repo, github actions will run daily on it. To disable this, go to <myuser>/examples/settings/actions and Disable Actions for this repository.
+https://pytorch.org/examples/
 
-`pytorch/examples` is a repository showcasing examples of using [PyTorch](https://github.com/pytorch/pytorch). The goal is to have curated, short, few/no dependencies *high quality* examples that are substantially different from each other that can be emulated in your existing work.
+`pytorch/examples` is a repository showcasing examples of using [PyTorch](https://github.com/pytorch/pytorch). The goal is to have curated, short, few/no dependencies _high quality_ examples that are substantially different from each other that can be emulated in your existing work.
 
-* For tutorials: https://github.com/pytorch/tutorials
-* For changes to pytorch.org: https://github.com/pytorch/pytorch.github.io
-* For a general model hub: https://pytorch.org/hub/ or https://huggingface.co/models
-* For recipes on how to run PyTorch in production: https://github.com/facebookresearch/recipes
-* For general Q&A and support: https://discuss.pytorch.org/
+- For tutorials: https://github.com/pytorch/tutorials
+- For changes to pytorch.org: https://github.com/pytorch/pytorch.github.io
+- For a general model hub: https://pytorch.org/hub/ or https://huggingface.co/models
+- For recipes on how to run PyTorch in production: https://github.com/facebookresearch/recipes
+- For general Q&A and support: https://discuss.pytorch.org/
 
 ## Available models
 
@@ -29,6 +29,10 @@ WARNING: if you fork this repo, github actions will run daily on it. To disable 
 - [PyTorch Module Transformations using fx](./fx/README.md)
 - Distributed PyTorch examples with [Distributed Data Parallel](./distributed/ddp/README.md) and [RPC](./distributed/rpc)
 - [Several examples illustrating the C++ Frontend](cpp)
+- [Image Classification Using Forward-Forward](./mnist_forward_forward/README.md)
+- [Language Translation using Transformers](./language_translation/README.md)
+
+
 
 Additionally, a list of good examples hosted in their own repositories:
 
